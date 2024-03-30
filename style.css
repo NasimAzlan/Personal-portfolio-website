@@ -14,9 +14,6 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    /* background-image: url(portimg3.png);
-    background-size: cover;
-    background-position: center; */
 }
 .container{
     padding: 10px 10%;
@@ -58,20 +55,20 @@ nav ul li a:hover::after{
     font-size: 30px;
 }
 .header-text h1{
-font-size: 60px;
-margin-top: 20px;
+font-size: 4.5vh;
+margin-top: 1.8vh;
 }
 .header-text h1 span{
     color: #ff004f;
 }
 .mainimg{
     margin-left: 60%;
-    margin-top: -55vh;
+    margin-top: -27vw;
     
 }
 .mainimg img{
     position: absolute;
-    width: 35%;
+    /* width: 35%; */
     height: 35vw;
     border-radius: 50%;
 }
@@ -325,6 +322,7 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(phone-background.png);
+        height: 120vw;
     }
     .header-text{
         margin-top: 100%;
@@ -335,12 +333,12 @@ nav .fa-solid{
     }
     .mainimg{
         margin-left: 15%;
-        margin-top: -60vh;
+        margin-top: -110vw;
         
     }
     .mainimg img{
         position: absolute;
-        width: 60%;
+        /* width: 60%; */
         height: 60vw;
         border-radius: 50%;
     }
